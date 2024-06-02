@@ -55,15 +55,28 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqx-rJ-te7">
+                                <rect key="frame" x="131.33333333333331" y="783.66666666666663" width="130.33333333333331" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="menual segue"/>
+                                <connections>
+                                    <action selector="onPressMenualSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0j-Zl-Apd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Nqx-rJ-te7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KeH-xV-sxR"/>
                             <constraint firstItem="UW7-CP-tIJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QBf-vN-fwT"/>
+                            <constraint firstItem="Nqx-rJ-te7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bDs-VF-nR0"/>
                             <constraint firstItem="UW7-CP-tIJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uoU-QD-cJM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JP5-9V-6Mt"/>
+                    <connections>
+                        <segue destination="Woj-WU-oV6" kind="show" identifier="menualSegue" id="lTs-6o-Oh0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,7 +87,7 @@
             <objects>
                 <viewController id="Woj-WU-oV6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XTq-iw-yJg">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="kQF-ck-z6Z"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
@@ -105,7 +118,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uli-G1-EDZ"/>
+        <segue reference="lTs-6o-Oh0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
