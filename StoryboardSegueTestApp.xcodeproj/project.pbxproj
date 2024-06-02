@@ -14,6 +14,8 @@
 		E4221ABF2C0AEC3F003D51D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4221ABE2C0AEC3F003D51D5 /* Assets.xcassets */; };
 		E4221AC22C0AEC3F003D51D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4221AC02C0AEC3F003D51D5 /* LaunchScreen.storyboard */; };
 		E4221ACB2C0AF0F0003D51D5 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221ACA2C0AF0F0003D51D5 /* constant.swift */; };
+		E4221ACD2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221ACC2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift */; };
+		E4221ACF2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221ACE2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E4221AC32C0AEC3F003D51D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4221AC92C0AEC7F003D51D5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4221ACA2C0AF0F0003D51D5 /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		E4221ACC2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfEmbedingSegue.swift; sourceTree = "<group>"; };
+		E4221ACE2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfEmbedingUnwindSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				E4221ABE2C0AEC3F003D51D5 /* Assets.xcassets */,
 				E4221AC02C0AEC3F003D51D5 /* LaunchScreen.storyboard */,
 				E4221AC32C0AEC3F003D51D5 /* Info.plist */,
+				E4221ACC2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift */,
+				E4221ACE2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift */,
 			);
 			path = StoryboardSegueTestApp;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4221ACF2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift in Sources */,
+				E4221ACD2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift in Sources */,
 				E4221ABA2C0AEC3E003D51D5 /* ViewController.swift in Sources */,
 				E4221AB62C0AEC3E003D51D5 /* AppDelegate.swift in Sources */,
 				E4221AB82C0AEC3E003D51D5 /* SceneDelegate.swift in Sources */,
