@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func unwindToCustomModal(_ unwindSegue: UIStoryboardSegue) {
+        print(self, #function)
+    }
+    
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        print("Source", segue.source, "Destination", segue.destination)
 //    }

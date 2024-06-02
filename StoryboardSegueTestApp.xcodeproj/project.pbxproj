@@ -16,6 +16,8 @@
 		E4221ACB2C0AF0F0003D51D5 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221ACA2C0AF0F0003D51D5 /* constant.swift */; };
 		E4221ACD2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221ACC2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift */; };
 		E4221ACF2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221ACE2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift */; };
+		E4221AD12C0C1D61003D51D5 /* ModalEmbedingSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221AD02C0C1D61003D51D5 /* ModalEmbedingSegue.swift */; };
+		E4221AD32C0C1D7F003D51D5 /* ModalEmbedingUnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4221AD22C0C1D7F003D51D5 /* ModalEmbedingUnwindSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		E4221ACA2C0AF0F0003D51D5 /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
 		E4221ACC2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfEmbedingSegue.swift; sourceTree = "<group>"; };
 		E4221ACE2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfEmbedingUnwindSegue.swift; sourceTree = "<group>"; };
+		E4221AD02C0C1D61003D51D5 /* ModalEmbedingSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalEmbedingSegue.swift; sourceTree = "<group>"; };
+		E4221AD22C0C1D7F003D51D5 /* ModalEmbedingUnwindSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalEmbedingUnwindSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				E4221AC32C0AEC3F003D51D5 /* Info.plist */,
 				E4221ACC2C0C0AF4003D51D5 /* HalfEmbedingSegue.swift */,
 				E4221ACE2C0C1A26003D51D5 /* HalfEmbedingUnwindSegue.swift */,
+				E4221AD02C0C1D61003D51D5 /* ModalEmbedingSegue.swift */,
+				E4221AD22C0C1D7F003D51D5 /* ModalEmbedingUnwindSegue.swift */,
 			);
 			path = StoryboardSegueTestApp;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 				E4221AB62C0AEC3E003D51D5 /* AppDelegate.swift in Sources */,
 				E4221AB82C0AEC3E003D51D5 /* SceneDelegate.swift in Sources */,
 				E4221ACB2C0AF0F0003D51D5 /* constant.swift in Sources */,
+				E4221AD12C0C1D61003D51D5 /* ModalEmbedingSegue.swift in Sources */,
+				E4221AD32C0C1D7F003D51D5 /* ModalEmbedingUnwindSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
