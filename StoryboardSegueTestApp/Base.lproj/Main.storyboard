@@ -132,12 +132,22 @@
                                     <constraint firstItem="oE9-Ty-wqH" firstAttribute="top" secondItem="qBN-AA-dsT" secondAttribute="bottom" constant="10" id="zOH-fg-kFS"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wu5-fm-Bdp">
+                                <rect key="frame" x="146.66666666666666" y="376" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="BLu-uR-z1s"/>
+                                    <constraint firstAttribute="width" constant="100" id="Eco-2Q-Trm"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kQF-ck-z6Z"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="systemPinkColor"/>
                         <constraints>
                             <constraint firstItem="kQF-ck-z6Z" firstAttribute="bottom" secondItem="bkl-yF-8vZ" secondAttribute="bottom" constant="10" id="CJ3-WV-AYg"/>
+                            <constraint firstItem="wu5-fm-Bdp" firstAttribute="centerY" secondItem="XTq-iw-yJg" secondAttribute="centerY" id="FOz-li-bGN"/>
+                            <constraint firstItem="wu5-fm-Bdp" firstAttribute="centerX" secondItem="XTq-iw-yJg" secondAttribute="centerX" id="aqv-Vg-Cv9"/>
                             <constraint firstItem="bkl-yF-8vZ" firstAttribute="centerX" secondItem="XTq-iw-yJg" secondAttribute="centerX" id="vyd-a8-JeF"/>
                         </constraints>
                     </view>
